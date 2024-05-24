@@ -1,3 +1,9 @@
+#scratchFX unneccessary directories
+scratchFX_ARoutput/
+scratchFX_input/
+scratchFX_output/
+scratchFX_selectedCuts/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

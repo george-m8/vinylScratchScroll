@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+.vinyl {
+    width: 50vw;
+    height: 50vw;
+    background-color: rgb(61, 61, 61);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.position-marker {
+    width:50%;
+    height:1px;
+    background-color: white;
+    position: relative;
+    right:-12.5vw;
+}
+
+.logo-container {
+    width: 10vw;
+    height: 10vw;
+    padding: 10px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #ffcfdc;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    max-width: 100%;}
